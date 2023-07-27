@@ -39,7 +39,7 @@
          <!-- nav bar section start -->
         <div class="bg-[#fff]  lg:bg-[#f85559] flex rounded-full justify-around items-center">
         
-          <div class="flex items-center justify-around text-white text-sm font-medium">
+          <div class="hidden lg:flex items-center justify-around text-white text-sm font-medium">
             <ul class="hidden lg:flex space-x-3 uppercase">
               <li><a href="">Home</a></li>
               <li><a href="">About Us</a></li>
@@ -68,7 +68,7 @@
          <!-- first slid  -->
          <div class="carousel w-full lg:h-[600px] lg:mt-14 object-cover">
           <div id="slide1" class="carousel-item relative w-full">
-            <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+            <div class="hero min-h-screen rounded-md" style="background-image: url(images/banner1.png); border-radius: 8px; height: 600px; width: 1400px;">
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md ">
@@ -90,7 +90,7 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md ">
-                  <h1 class="mb-5 text-7xl text-white font-extrabold">Exotic tastes at your <br>
+                  <h1 class="mb-5 text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your <br>
                     doorstep</h1>
                   <p class="mb-5 text-white text-base font-medium">We supply highly quality organic products</p>
                   <button class="text-lg text-white font-extrabold bg-[#f85559] px-3 py-3 rounded-xl">Shop Now</button>
@@ -108,7 +108,7 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md ">
-                  <h1 class="mb-5 text-7xl text-white font-extrabold">Exotic tastes at your <br>
+                  <h1 class="mb-5 text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your <br>
                     doorstep</h1>
                   <p class="mb-5 text-white text-base font-medium">We supply highly quality organic products</p>
                   <button class="text-lg text-white font-extrabold bg-[#f85559] px-3 py-3 rounded-xl">Shop Now</button>
@@ -126,7 +126,7 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md ">
-                  <h1 class="mb-5 text-7xl text-white font-extrabold">Exotic tastes at your <br>
+                  <h1 class="mb-5 text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your <br>
                     doorstep</h1>
                   <p class="mb-5 text-white text-base font-medium">We supply highly quality organic products</p>
                   <button class="text-lg text-white font-extrabold bg-[#f85559] px-3 py-3 rounded-xl">Shop Now</button>
@@ -407,14 +407,14 @@
     </main>
        <!-- main section end  -->
         <!-- footer section start -->
-        <footer class="w-full px-8 md:px-16 lg:px-24 py-5 my-10  footer footer-center p-10 bg-[#121212] text-primary-content">
+        <footer class="footer footer-center max-w-screen-lg p-10 bg-black text-primary-content">
           <div>
             <div class="flex space-x-3 items-center py-7">
               <img class="py-3 w-15 h-11 lg:w-15 lg:h-16" src="images/logo.png" alt="">
               <h2 class="text-[#fff] lg:text-white font-extrabold text-xl lg:text-5xl">Fruit Burst</h2>
             </div>
             <div class="my-7">
-             <ul class="flex items-center justify-around gap-16 text-">
+             <ul class="lg:flex items-center justify-around gap-16">
               <li><a href="">Home</a></li>
               <li><a href="">About Us</a></li>
               <li><a href="">Shop</a></li>
@@ -423,10 +423,10 @@
               <li><a href="">My Account</a></li>
              </ul>
             </div>
-            <div class="flex items-center gap-11">
+            <div class="inline gap-7 lg:flex lg:items-center lg:gap-11">
               <i class="bg-black text-white rounded-full p-1 fa-brands fa-twitter"></i>
-              <i class="text-[#1877f2] bg-white rounded-full p-1 fa-brands fa-facebook"></i>
-              <i class="text-[#FF0000] bg-white p-1 rounded-md fa-brands fa-youtube"></i>
+              <i class="text-[#1877f2] bg-white rounded-full fa-brands fa-facebook"></i>
+              <i class="text-[#FF0000] bg-white rounded-md fa-brands fa-youtube"></i>
               <i class="bg-black text-white rounded-full p-2 fa-brands fa-linkedin"></i>
               <i class="bg-black text-white rounded-full p-2 fa-brands fa-instagram"></i>
               <i class=" text-white rounded-full p-2 fa-brands fa-apple"></i>
@@ -435,7 +435,5 @@
             <p class="pt-5">Copyright © 2023 - All right reserved</p>
           </div> 
         </footer>
-   <!-- footer section start -->
-
 </body>
 </html>
